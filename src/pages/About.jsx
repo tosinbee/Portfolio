@@ -5,8 +5,10 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import CTA from "../components/CTA";
+import Helmet from "../components/Helmet";
 const About = () => {
   return (
+    <Helmet title="About Me">
     <section className="max-container">
        <h1 className="head-text">
        Hello, I'm
@@ -107,6 +109,7 @@ const About = () => {
       <CTA />
       
     </section>
+    </Helmet>
   )
 }
 
