@@ -10,7 +10,7 @@ const HomeInfo = ({ currentStage }) => {
         <span className='font-semibold mx-2 text-white'>Tosin</span>
         👋
         <br />
-        A Software Engineer from Nigeria
+        A Software Engineer in Canada
       </h1>
 
       <div className={`info-box ${currentStage !== 1 ? 'hidden' : ''}`}>

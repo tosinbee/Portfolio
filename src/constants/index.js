@@ -67,7 +67,7 @@ export const experiences = [
     company_name: "Procept Africa | MTN NIgeria",
     icon: mtn,
     iconBg: "#FFDE21",
-    date: "March 2024 - Present",
+    date: "March 2024 - December 2024",
     points: [
       "Improved test case execution efficiency by 25% through effective test planning, case, and defect management using Jira.",
       "Successfully conducted BAP tests for SIM vendors, ensuring 100% adherence to customer specifications, and enhancing customer satisfaction.",

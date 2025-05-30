@@ -11,7 +11,7 @@ import HomeInfo from "../components/HomeInfo";
  
 
 const Home = () => {
-  const [currentStage, setCurrentStage] = useState(1);
+  const [currentStage, setCurrentStage] = useState(0);
   const [isRotating, setIsRotating] = useState(false);
   
 const adjustIslandForScreenSize = () =>{
