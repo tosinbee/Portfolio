@@ -11,7 +11,7 @@ const About = () => {
     <Helmet title="About Me">
     <section className="max-container">
        <h1 className="head-text">
-       Hello, I'm
+       Hey there! I'm
         <span className='blue-gradient_text font-semibold drop-shadow'>
           Tosin
         </span>
@@ -20,7 +20,7 @@ const About = () => {
 
        <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
-          Software Engineer and Software Tester based in Canada.
+          Frontend Engineer based in Canada.
         </p>
       </div>
 

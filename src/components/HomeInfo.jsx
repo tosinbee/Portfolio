@@ -6,11 +6,11 @@ const HomeInfo = ({ currentStage }) => {
   return (
     <>
       <h1 className={`sm:text-xl sm:leading-snug text-center neo-brutalism-blue py-4 px-8 text-white mx-5 ${currentStage !== 0 ? 'hidden' : ''}`}>
-        Hi, I'm
+      Hey there! I'm
         <span className='font-semibold mx-2 text-white'>Tosin</span>
         👋
         <br />
-        A Software Engineer in Canada
+        A Frontend Engineer based in Canada.
       </h1>
 
       <div className={`info-box ${currentStage !== 1 ? 'hidden' : ''}`}>
